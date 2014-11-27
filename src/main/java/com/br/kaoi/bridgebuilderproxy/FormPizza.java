@@ -87,7 +87,7 @@ public class FormPizza extends javax.swing.JFrame {
                 txtAMontagem.setText(montagemPizza(pizza, modoDeAssar)); 
                 
           }else if(pizza == "Queijo"){
-                p = new Queijo();                
+                p = Queijo.getQueijo();
                 txtAMontagem.setText(montagemPizza(pizza, modoDeAssar));                
                                       
           }else if(pizza == "Queijo Builder"){
